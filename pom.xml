@@ -19,7 +19,7 @@
                 <configuration>
                     <!-- Suite testng xml file to consider for test execution -->
                     <suiteXmlFiles>
-                        <suiteXmlFile>google.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/resources/launchers/google.xml</suiteXmlFile>
 
                     </suiteXmlFiles>
                 </configuration>
