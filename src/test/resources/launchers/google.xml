@@ -3,7 +3,7 @@
 
 <suite name="Google Search Tests" verbose="1" parallel="tests">
     <parameter name="url" value="https://www.google.com/"/>
-    <parameter name="os" value="windows"/>
+    <parameter name="os" value="linux"/>
     <parameter name="node" value="http://localhost:4444"/>
 
 <!--     <test name="Tests on Firefox" preserve-order="true" group-by-instances="true">
