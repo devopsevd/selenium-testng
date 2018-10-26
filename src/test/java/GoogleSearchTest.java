@@ -31,23 +31,23 @@ public class GoogleSearchTest {
         Assert.assertTrue(driver.getCurrentUrl().contains("www.google.com"));
     }
 
-    @Test
+/*     @Test
     public void googleSearchButtonTest() {
         // basic test to validate that search button is displayed, enabled and it's value
         WebElement searchButtonElement = driver.findElement(By.name("btnK"));
         Assert.assertTrue(searchButtonElement.isDisplayed());
         Assert.assertTrue(searchButtonElement.isEnabled());
         Assert.assertTrue(searchButtonElement.getAttribute("value").contains("Google Search"));
-    }
+    } */
 
-    @Test
+/*     @Test
     public void googleFeelingLuckyButtonTest() {
         // basic test to validate that feeling lucky button is displayed, enabled and it's value
         WebElement feelingLuckyElement = driver.findElement(By.name("btnI"));
         Assert.assertTrue(feelingLuckyElement.isDisplayed());
         Assert.assertTrue(feelingLuckyElement.isEnabled());
         Assert.assertTrue(feelingLuckyElement.getAttribute("value").contains("I'm Feeling Lucky"));
-    }
+    } */
 
     @Test
     public void googleSearchBox() {
