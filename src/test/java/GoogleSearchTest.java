@@ -19,13 +19,15 @@ public class GoogleSearchTest {
         driver = setupTestDriver.getDriver();
     }
 
-    @Test
+    @Test(description="Check Title of google plage")
+    @Description("Test Description: Title test for google page.")
     public void googleTitleTest() {
         // validate page title test
         Assert.assertTrue(driver.getTitle().contentEquals("Google"));
     }
 
-    @Test
+    @Test(description="Check URL of google plage")
+    @Description("Test Description: URL test for google page.")
     public void googleUrlTest() {
         // validate current url test
         Assert.assertTrue(driver.getCurrentUrl().contains("www.google.com"));
@@ -49,7 +51,8 @@ public class GoogleSearchTest {
         Assert.assertTrue(feelingLuckyElement.getAttribute("value").contains("I'm Feeling Lucky"));
     } */
 
-    @Test
+    @Test(description="Check Search Box of google plage")
+    @Description("Test Description: Search Box test for google page.")
     public void googleSearchBox() {
         // basic test to validate that search box displayed and enabled
         WebElement searchElement = driver.findElement(By.name("q"));
